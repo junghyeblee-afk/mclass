@@ -15,7 +15,7 @@ pipeline {
         REMOTE_USER     = "ec2-user"                // 원격(spring) 서버 사용자 이름
         REMOTE_HOST     = "16.171.209.44"           // 원격(spring) 서버 public IP
 
-        REMOTE_DIR      = "/home/ec2-usre/deploy"   // 원격 서버 배포 경로.
+        REMOTE_DIR      = "/home/ec2-user/deploy"   // 원격 서버 배포 경로.
         SSH_CREDENTIALS_ID = "41139eb5-57f3-40d5-bb45-f1e3dafc6359" // RSA Credentials
 
     }
